@@ -116,9 +116,8 @@ export default function HeroImageBackground() {
 
         <Container size={640}>
           <Text size="lg" className={classes.description}>
-            Build more reliable software with AI companion. AI is also trained
-            to detect lazy developers who do nothing and just complain on
-            Twitter.
+            Decentralized Payment Processing using web 3. Join our discord
+            server or find our source code on github.
           </Text>
         </Container>
 
