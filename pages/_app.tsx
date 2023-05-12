@@ -9,6 +9,7 @@ export default function App(props: AppProps) {
     <>
       <Head>
         <title>Coming Soon!</title>
+        <link rel="icon" href="/etherspay.svg" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
@@ -19,7 +20,6 @@ export default function App(props: AppProps) {
         withGlobalStyles
         withNormalizeCSS
         theme={{
-          /** Put your mantine theme override here */
           colorScheme: "dark",
           primaryColor: "teal",
         }}

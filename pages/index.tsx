@@ -3,10 +3,10 @@ import {
   Text,
   Container,
   Button,
-  Overlay,
   createStyles,
   rem,
-  Divider,
+  Image,
+  Flex
 } from "@mantine/core";
 
 const useStyles = createStyles((theme) => ({
@@ -41,6 +41,7 @@ const useStyles = createStyles((theme) => ({
     paddingRight: theme.spacing.md,
     color: theme.white,
     marginBottom: theme.spacing.xs,
+    marginTop: theme.spacing.lg,
     textAlign: "center",
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
 
@@ -108,6 +109,12 @@ export default function HeroImageBackground() {
   return (
     <div className={classes.wrapper}>
       <div className={classes.inner}>
+        <Image
+          src="/etherspay-text.svg"
+          alt="Etherspay"
+          width={200}
+          style={{ margin: "auto", display: "block" }}
+        />
         <Title className={classes.title}>
           Etherspay is{" "}
           <Text component="span" inherit className={classes.highlight}>
@@ -122,12 +129,11 @@ export default function HeroImageBackground() {
           </Text>
         </Container>
 
-        <div className={classes.controls}>
+        <Flex gap={10} className={classes.controls}>
           <Button size="lg" component="a" href="https://discord.gg/6Cc2zYSQ">
             Join our Discord
           </Button>
           <Button
-            ml={16}
             size="lg"
             component="a"
             href="https://github.com/etherspay/"
@@ -137,7 +143,7 @@ export default function HeroImageBackground() {
           >
             Source code
           </Button>
-        </div>
+        </Flex>
       </div>
     </div>
   );
