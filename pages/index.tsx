@@ -6,6 +6,7 @@ import {
   Overlay,
   createStyles,
   rem,
+  Divider,
 } from "@mantine/core";
 
 const useStyles = createStyles((theme) => ({
@@ -107,9 +108,9 @@ export default function HeroImageBackground() {
     <div className={classes.wrapper}>
       <div className={classes.inner}>
         <Title className={classes.title}>
-          Automated AI code reviews for{" "}
+          Etherspay is{" "}
           <Text component="span" inherit className={classes.highlight}>
-            any stack
+            coming soon
           </Text>
         </Title>
 
@@ -122,14 +123,19 @@ export default function HeroImageBackground() {
         </Container>
 
         <div className={classes.controls}>
-          <Button className={classes.control} variant="white" size="lg">
-            Get started
+          <Button size="lg" component="a" href="">
+            Join our Discord
           </Button>
           <Button
-            className={cx(classes.control, classes.secondaryControl)}
+            ml={16}
             size="lg"
+            component="a"
+            href="https://github.com/etherspay/"
+            target="_blank"
+            variant="outline"
+            rel="noopener noreferrer"
           >
-            Live demo
+            Source code
           </Button>
         </div>
       </div>
