@@ -122,7 +122,7 @@ export default function HeroImageBackground() {
         </Container>
 
         <div className={classes.controls}>
-          <Button size="lg" component="a" href="">
+          <Button size="lg" component="a" href="https://discord.gg/6Cc2zYSQ">
             Join our Discord
           </Button>
           <Button
