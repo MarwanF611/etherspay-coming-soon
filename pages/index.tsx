@@ -30,6 +30,7 @@ const useStyles = createStyles((theme) => ({
   inner: {
     position: "relative",
     zIndex: 1,
+    marginTop: 100
   },
 
   title: {
@@ -54,7 +55,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   description: {
-    color: theme.colors.gray[0],
+    
     textAlign: "center",
 
     [theme.fn.smallerThan("xs")]: {
@@ -115,9 +116,9 @@ export default function HeroImageBackground() {
         </Title>
 
         <Container size={640}>
-          <Text size="lg" className={classes.description}>
-            Decentralized Payment Processing using web 3. Join our discord
-            server or find our source code on github.
+          <Text size="lg" fw={600} color="dimmed" className={classes.description}>
+            Decentralized Payment Processing using Web3. Join our discord
+            server for any future updates.
           </Text>
         </Container>
 
