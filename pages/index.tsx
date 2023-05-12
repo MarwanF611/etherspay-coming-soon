@@ -132,7 +132,7 @@ export default function HeroImageBackground() {
         </Container>
 
         <Flex gap={10} className={classes.controls}>
-          <Button size="lg" component="a" href="https://discord.gg/6Cc2zYSQ">
+          <Button size="lg" component="a" href="https://discord.gg/T4UeCsS3Uh">
             Join our Discord
           </Button>
           <Button
