@@ -16,7 +16,6 @@ const useStyles = createStyles((theme) => ({
     width: "100vw",
     paddingTop: rem(180),
     paddingBottom: rem(130),
-
     backgroundImage: "url('/blob-scene-dark.svg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
